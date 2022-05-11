@@ -1,0 +1,29 @@
+.newsletter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+    @include respond(phone) {
+        flex-direction: column;
+    }
+
+    &__input {
+        flex: 1;
+        font-size: 1.4rem;
+        font-family: var(--fancy-font);
+        padding: .8rem .6rem;
+        border-radius: 2px;
+        border: 2px solid #000;
+        transition: all .2s;
+
+        &:focus {
+            outline: none;
+        }
+
+        &--btn {
+            background-color: var(--color-primary);
+            color: var(--color-white);
+            border: none;
+        }
+    }
+}

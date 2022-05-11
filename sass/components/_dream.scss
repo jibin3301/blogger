@@ -1,0 +1,17 @@
+.dream {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2rem;
+
+    @include respond(tab-port) {
+        flex-basis: calc((100% - 5rem) / 2);
+    }
+
+    &__img {
+        display: block;
+        max-width: 12rem;
+        height: auto;
+    }
+}

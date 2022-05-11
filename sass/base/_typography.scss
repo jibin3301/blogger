@@ -1,0 +1,46 @@
+body {
+    font-family: var(--normal-font);
+    font-weight: 400;
+    font-size: 1.8rem;
+    color: var(--color-text);
+}
+
+a {
+    &:link, 
+    &:visited, 
+    &:active {
+        color: #000;
+        text-decoration: none;
+    }
+
+    &:hover {
+        color: var(--color-primary);
+        transition: all .2s;
+    }
+}
+
+.heading-primary {
+    font-size: 5rem;
+    line-height: 1.2;
+    letter-spacing: -1px;
+    font-weight: 700;
+}
+
+.heading-secondary {
+    font-size: 4rem;
+    line-height: 1.1;
+    letter-spacing: -.5px;
+    font-weight: 600;
+}
+
+.heading-teritiary {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.text-primary {
+    font-size: 2rem;
+    font-family: var(--fancy-font);
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
