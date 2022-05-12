@@ -1,3 +1,3 @@
-# shoutmeloud
+# Blogger
 
 free blogging template
