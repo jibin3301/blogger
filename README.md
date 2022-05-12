@@ -1,3 +1,3 @@
 # shoutmeloud
 
-clone of website shoutmeloud.com
+free blogging template
