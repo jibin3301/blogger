@@ -619,7 +619,7 @@ a:hover {
     cursor: pointer; }
   .header__logo-img {
     display: block;
-    max-width: 15.7rem;
+    width: 17.4rem;
     height: auto; }
   .header__nav {
     margin-left: auto;
@@ -693,3 +693,6 @@ a:hover {
   @media only screen and (max-width: 37.5em) {
     .section-trending__wrapper {
       flex-direction: column; } }
+
+.section-deals {
+  background-color: #eee; }
