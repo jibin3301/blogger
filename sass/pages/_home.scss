@@ -74,4 +74,10 @@
 
 .section-community {
     background-color: var(--color-grey);
+    
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+        gap: 3.2rem;
+    }
 }

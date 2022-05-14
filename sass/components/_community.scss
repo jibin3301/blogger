@@ -1,0 +1,25 @@
+.community {
+    text-align: center;
+
+    &__img {
+        font-size: 8.4rem;
+    }
+
+    &__details {
+        font-family: var(--fancy-font);
+        font-size: 1.4rem;
+        padding: 1.2rem 3.2rem;
+
+        a {
+            &:link, 
+            &:visited, 
+            &:active {
+                color: var(--color-text);
+            }
+
+            &:hover {
+                color: var(--color-text);
+            }
+        }
+    }
+}

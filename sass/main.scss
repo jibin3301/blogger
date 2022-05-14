@@ -2,6 +2,8 @@
 @import "abstracts/mixins";
 @import "abstracts/variables"; 
 
+@import "vendors/font-awesome";
+
 @import "base/animations";
 @import "base/base";
 @import "base/typography";
@@ -12,8 +14,10 @@
 @import "components/dream";
 @import "components/post";
 @import "components/store";
+@import "components/community";
 
 @import "layout/header"; 
 
 @import "pages/home"; 
+
 
