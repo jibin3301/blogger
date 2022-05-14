@@ -24,6 +24,7 @@ ORDER: Base + typography > general layout + grid > page layout > components
   --color-primary-dark: #ce3330;
   --color-white: #fff;
   --color-black: #000;
+  --color-text: #111;
   --color-grey: #eee;
   --gap: 5rem; }
 
@@ -40,6 +41,10 @@ html {
 body {
   box-sizing: border-box; }
 
+::selection {
+  color: var(--color-white);
+  background-color: var(--color-primary-dark); }
+
 body {
   font-family: var(--normal-font);
   font-weight: 400;
@@ -47,12 +52,12 @@ body {
   color: var(--color-text); }
 
 a:link, a:visited, a:active {
-  color: #000;
-  text-decoration: none; }
+  color: var(--color-black);
+  text-decoration: none;
+  transition: all .2s; }
 
 a:hover {
-  color: var(--color-primary);
-  transition: all .2s; }
+  color: var(--color-primary); }
 
 .heading-primary {
   font-size: 5rem;
@@ -67,7 +72,7 @@ a:hover {
   font-weight: 600; }
 
 .heading-teritiary {
-  font-size: 3rem;
+  font-size: 2.6rem;
   font-weight: 500; }
 
 .text-primary {
@@ -592,12 +597,13 @@ a:hover {
     font-family: var(--fancy-font);
     font-size: 1.4rem;
     font-weight: 500;
-    color: #fff;
+    color: var(--color-white);
+    text-transform: uppercase;
     position: absolute;
     top: 0;
     left: 0;
     padding: .4rem .8rem;
-    background-color: #000; }
+    background-color: var(--color-black); }
   .post__img-link {
     display: block; }
   .post__img {
@@ -609,6 +615,21 @@ a:hover {
     font-family: var(--fancy-font);
     font-size: 1.2rem;
     font-weight: 700; }
+
+.store {
+  display: flex; }
+  .store__left {
+    align-items: center;
+    flex: 0 0 35%; }
+  .store__right {
+    flex: 0 0 65%; }
+  .store__price {
+    display: block;
+    font-size: 3.2rem;
+    font-weight: 700; }
+  .store__buttons {
+    display: flex;
+    justify-content: space-between; }
 
 .header {
   border-bottom: 1px solid #eee; }
@@ -688,7 +709,7 @@ a:hover {
       height: auto; } }
 
 .section-dream {
-  background-color: #eee; }
+  background-color: var(--color-grey); }
   .section-dream__wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -702,4 +723,7 @@ a:hover {
       flex-direction: column; } }
 
 .section-deals {
-  background-color: #eee; }
+  background-color: var(--color-grey); }
+
+.section-community {
+  background-color: var(--color-grey); }

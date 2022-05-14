@@ -1,0 +1,23 @@
+.store {
+    display: flex;
+
+    &__left {
+        align-items: center;
+        flex: 0 0 35%;
+    }
+
+    &__right {
+        flex: 0 0 65%;
+    }
+
+    &__price {
+        display: block;
+        font-size: 3.2rem;
+        font-weight: 700;
+    }
+
+    &__buttons {
+        display: flex;
+        justify-content: space-between;
+    }
+}
