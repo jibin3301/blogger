@@ -19,9 +19,12 @@ ORDER: Base + typography > general layout + grid > page layout > components
   --fancy-font: 'Domine', serif;
   --normal-font: 'Barlow Semi Condensed', sans-serif;
   --color-text: rgb(0, 0, 0);
-  --color-primary: #b71c1c;
+  --color-primary: #e53935;
+  --color-primary-light: #e84d49;
+  --color-primary-dark: #ce3330;
   --color-white: #fff;
   --color-black: #000;
+  --color-grey: #eee;
   --gap: 5rem; }
 
 *,
@@ -75,6 +78,10 @@ a:hover {
 
 .u-wrapper {
   max-width: 124rem;
+  padding: 0 1rem; }
+
+.u-wrapper-small {
+  max-width: 100rem;
   padding: 0 1rem; }
 
 .u-center {
@@ -560,9 +567,13 @@ a:hover {
     .newsletter__input:focus {
       outline: none; }
     .newsletter__input--btn {
-      background-color: var(--color-primary);
+      background-color: var(--color-primary-dark);
       color: var(--color-white);
-      border: none; }
+      border: none;
+      transition: all .2s; }
+      .newsletter__input--btn:hover {
+        cursor: pointer;
+        background-color: var(--color-primary); }
 
 .dream {
   flex: 1;

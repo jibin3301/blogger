@@ -21,9 +21,15 @@
         }
 
         &--btn {
-            background-color: var(--color-primary);
+            background-color: var(--color-primary-dark);
             color: var(--color-white);
             border: none;
+            transition: all .2s;
+
+            &:hover {
+                cursor: pointer;
+                background-color: var(--color-primary);
+            }
         }
     }
 }
