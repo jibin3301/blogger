@@ -1,0 +1,21 @@
+.about {
+    display: flex;
+
+    &__left {
+        flex: 0 0 35%;
+    }
+
+    &__right {
+        flex: 0 0 65%;
+    }
+
+    &__profile {
+        width: 32rem;
+    }
+
+    &__socials {
+        display: flex;
+        justify-content: space-between;
+        font-weight: 500;
+    }
+}

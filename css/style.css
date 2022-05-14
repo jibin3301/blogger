@@ -2857,6 +2857,19 @@ a:hover {
     .community__details a:hover {
       color: var(--color-text); }
 
+.about {
+  display: flex; }
+  .about__left {
+    flex: 0 0 35%; }
+  .about__right {
+    flex: 0 0 65%; }
+  .about__profile {
+    width: 32rem; }
+  .about__socials {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500; }
+
 .header {
   border-bottom: 1px solid #eee; }
   .header__wrapper {
