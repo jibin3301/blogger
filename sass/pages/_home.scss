@@ -91,5 +91,16 @@
 }
 
 .section-course {
-    
+    &__wrapper {
+        display: flex;
+        gap: var(--gap);
+    }
+
+    &__left {
+        flex: 0 0 50%;
+    }
+
+    &__right {
+        flex: 0 0 50%;
+    }
 }

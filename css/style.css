@@ -2763,6 +2763,13 @@ a:hover {
   border-bottom: 1px solid #000;
   transition: all .2s; }
 
+.btn--primary {
+  font-size: 2rem;
+  padding: .8rem 2.4rem; }
+  .btn--primary:link, .btn--primary:visited, .btn--primary:active {
+    color: var(--color-white);
+    background-color: var(--color-primary-dark); }
+
 .newsletter {
   display: flex;
   flex-wrap: wrap;
@@ -2973,3 +2980,13 @@ a:hover {
 
 .section-learn {
   background-color: var(--color-grey); }
+
+.section-course__wrapper {
+  display: flex;
+  gap: var(--gap); }
+
+.section-course__left {
+  flex: 0 0 50%; }
+
+.section-course__right {
+  flex: 0 0 50%; }
