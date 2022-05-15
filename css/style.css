@@ -2926,6 +2926,10 @@ a:hover {
     .header__nav-link--search:hover {
       color: var(--color-primary); }
 
+.footer {
+  background-color: var(--color-black);
+  color: var(--color-white); }
+
 .section-hero__wrapper {
   display: flex; }
   @media only screen and (max-width: 56.25em) {
