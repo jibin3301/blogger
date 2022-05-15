@@ -2970,3 +2970,6 @@ a:hover {
     display: flex;
     justify-content: center;
     gap: 3.2rem; }
+
+.section-learn {
+  background-color: var(--color-grey); }
